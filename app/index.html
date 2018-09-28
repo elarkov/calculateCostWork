@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 
-	<title></title>
+	<title>Calc</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +21,10 @@
 	<meta name="theme-color" content="#000">
 	<!-- Custom Browsers Color End -->
 
+	<!--Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<!--Google fonts End-->
+
 	<link rel="stylesheet" href="css/main.min.css">
 
 </head>
@@ -28,7 +32,64 @@
 <body>
 
 	<!-- Custom HTML -->
-	
+	<div class="wrapper">
+		<div class="calc">
+			<div class="tabs">
+				<ul class="tabs-items">
+					<li class="tabs-items__item active">Landing Page</li>
+					<li class="tabs-items__item">Многостроничник</li>
+				</ul>
+			</div>
+			<div class="info">
+				<ul class="info-list">
+					<li class="info-list__items">
+						<div class="info-list__text">Количество блоков</div>
+						<input class="info-list__input" type="text">
+					</li>
+					<li class="info-list__items">
+						<div class="info-list__text">Сколько часов на проект</div>
+						<input class="info-list__input" type="text">
+					</li>
+					<li class="info-list__items">
+						<div class="info-list__text">Стоимость вашего часа</div>
+						<input class="info-list__input" type="text">
+					</li>
+				</ul>
+				<ul class="info-pages">
+					<li class="info-pages__items">
+						<div class="info-pages__text">Количество страниц</div>
+						<input class="info-pages__input" type="text">
+					</li>
+					<li class="info-pages__items">
+						<div class="info-pages__text">Сколько часов на проект</div>
+						<input class="info-pages__input" type="text">
+					</li>
+					<li class="info-pages__items">
+						<div class="info-pages__text">Стоимость вашего часа</div>
+						<input class="info-pages__input" type="text">
+					</li>
+				</ul>
+				<div class="additional">
+					<p class="additional__header">Дополнительно</p>
+					<ul class="additional-points">
+						<li class="additional-points__point">
+							<input class="additional-points__check" type="checkbox">
+							<span class="additional-ponts__text">Возможность редактировать текст на сайте</span>
+						</li>
+						<li class="additional-points__point">
+							<input class="additional-points__check" type="checkbox">
+							<span class="additional-ponts__text">Установка на CMS</span>
+						</li>
+					</ul>
+				</div>
+				<div class="cost">
+					<div class="cost__text">Общая стоимость</div>
+					<div class="cost__price">2500</div>
+				</div>
+			</div>
+		</div>
+			
+	</div>
 	
 
 	<script src="js/scripts.min.js"></script>
