@@ -159,6 +159,12 @@ b, strong {
 
 .info-pages {
 	display: none;
+	flex-direction: column;
+}
+
+.info-list {
+	display: flex;
+	flex-direction: column;
 }
 
 .info-list__items,
